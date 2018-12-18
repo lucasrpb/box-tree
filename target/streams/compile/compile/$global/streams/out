@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/Volumes/Users/lucasrpb/IdeaProjects/box-tree/src/main/scala/index/Meta.scala:34:20: not enough arguments for constructor Index: (id: T, DATA_ORDER: Int, META_ORDER: Int)(implicit evidence$1: scala.reflect.ClassTag[T], implicit evidence$2: scala.reflect.ClassTag[K], implicit evidence$3: scala.reflect.ClassTag[index.Partition[T,K,V]], implicit ord: Ordering[K])index.Index[T,K,index.Partition[T,K,V]].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter META_ORDER.[0m
+[0m[[0m[31merror[0m] [0m[0m      partitions = new Index[T, K, Partition[T, K, V]](DATA_ORDER, META_ORDER)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
